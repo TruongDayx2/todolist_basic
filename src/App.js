@@ -26,7 +26,7 @@ function App() {
 
 
   return (
-    <div style={{pading:32}}>
+    <div style={{textAlign:"center" , padding:32}}>
       <input 
         value={job}
         onChange={e => setJob(e.target.value)}
